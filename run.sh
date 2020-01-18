@@ -1,0 +1,1 @@
+FLASK_APP=US_Accident_Severity_Prediction/app.py flask run
