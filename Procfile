@@ -1,1 +1,1 @@
-web: gunicorn CHSICorrelations.app:app
+web: gunicorn US_Accident_Severity_Prediction.app:app
