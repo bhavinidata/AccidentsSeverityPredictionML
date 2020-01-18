@@ -1,1 +1,1 @@
-web: gunicorn US_Accident_Severity_Prediction.app:app
+web: gunicorn USAccidentSeverityPrediction.app:app
