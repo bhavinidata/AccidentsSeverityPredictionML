@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Accident Severity Prediction Form</h2> 
+    <br>
+    <br>
+    <div>
+        <form method = 'POST' action="{{url_for('result')}}">
+        <label for="lat">Latitude</label> 
+        <input type="text" id="lat" name="lat"> 
+        <br> 
+        <br>
+        <label for="lng">Longitude</label> 
+        <input type="text" id="lng" name="lng"> 
+        <br>
+        <br>
+        <label for="temp">Temerature</label> 
+        <input type="text" id="temp" name="temp"> 
+        <br>
+        <br>
+        <label for="vis">Visibility</label> 
+        <input type="text" id="vis" name="vis"> 
+        <br>
+        <br>
+        <label for="w_cond">Weather Condition</label> 
+        <select id="w_cond" name="Weather Condition"> 
+        <option value="0">Clear</option> 
+        <option value="1">Cloudy</option> 
+        <option value="2">Low Visibility</option> 
+        <option value="3">Rain</option> 
+        <option value="4">Slippery</option> 
+        </select> 
+        <br> 
+        <br>
+        <label for="weekday">Weekday</label> 
+        <select id="weekday" name="Weekday"> 
+        <option value="0">Fri</option> 
+        <option value="1">Mon</option> 
+        <option value="2">Sat</option> 
+        <option value="3">Sun</option> 
+        <option value="4">Thu</option> 
+        <option value="5">Tue</option> 
+        <option value="6">Wed</option> 
+        </select> 
+        <br> 
+        <br>
+        <input type="submit" value="submit"> 
+    </form> 
+    </div>
+</body>
+</html>
