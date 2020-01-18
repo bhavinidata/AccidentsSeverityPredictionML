@@ -1,15 +1,14 @@
 from flask import Flask, render_template, request, url_for
 import requests
-# from treat_data import treat_input
 import json
 from sklearn.externals import joblib
 import numpy as np
 
-application = Flask(__name__)
+app = Flask(__name__)
 
-@application.route('/')
-@application.route('/index')
-def home():
+@app.route('/')
+# @app.route('/index')
+def index():
     return render_template('index.html')
 
 #  prediction function 
@@ -19,7 +18,7 @@ def ValuePredictor(to_predict_list):
     result = loaded_model.predict(to_predict) 
     return result[0] 
   
-@application.route('/result', methods = ['POST']) 
+@app.route('/result', methods = ['POST']) 
 def result(): 
     print("In RESULTS:")
     if request.method == 'POST': 
@@ -38,4 +37,4 @@ def result():
 
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    app.run(debug=True)
