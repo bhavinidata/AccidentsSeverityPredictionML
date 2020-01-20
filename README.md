@@ -32,7 +32,8 @@ Latitude, Longitude, Temperature(F), Visibility(mi), Weather_Category(Rain, Clou
 * Random Forest
 * SVM
 
-*  Did Hyper Parameter Tuning using Grid Search  
+### Attempts to achieve good accuracy
+* Did Hyper Parameter Tuning using Grid Search  
 * Trained the model with 75% of data 
 * Tested Accuracy for all models using test data 
 * Generated classification reports 
@@ -56,31 +57,33 @@ Latitude, Longitude, Temperature(F), Visibility(mi), Weather_Category(Rain, Clou
 * Model-4 Random Forest with grid search (n_estimator:10, max_depth: 20) and over sampling -SMOTE
     * Training Accuracy: 77.7%
     * Testing Accuracy: 69.9%
-
-                   pre       rec          f1       
-
-          2       0.85      0.71       0.77      
-          3       0.58      0.69      0.63      
-          4       0.21      0.52       0.30      
-
-avg / total  0.74      0.70       0.71    
+
+                  pre       rec        f1       
+
+
+          2       0.85      0.71       0.77      
+          3       0.58      0.69       0.63      
+          4       0.21      0.52       0.30     
+
+    avg / total   0.74             0.70            0.71 
+
 
 * Model-5 Random Forest with grid search (n_estimator: 10, max_depth: 75) and under sampling-  RandomUnderSampler
     * Training Accuracy: 65%
     * Testing Accuracy: 61.91%
 
 
-                  pre       rec            f1       
+                  pre       rec          f1       
 
 
           2       0.83      0.63        0.72      
           3       0.54      0.58        0.56      
-          4       0.14      0.71         0.23     
+          4       0.14      0.71        0.23     
 
-avg / total  0.72      0.62        0.65 
+avg / total         0.72           0.62             0.65 
 
 
-Finally Model-4 Random Forest with grid search (n_estimator:10, max_depth: 20) and over sampling -SMOTE has been used to predict the accident severity.
+###### Finally Model-4 Random Forest with grid search (n_estimator:10, max_depth: 20) and over sampling -SMOTE has been used to predict the accident severity.
 
 
 ### Tools and Technology:
