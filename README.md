@@ -87,7 +87,7 @@ avg / total         0.72           0.62             0.65
 
 
 ### Tools and Technology:
-* Jupyter notebook, AWS-Postgres, Databricks, PySpark, Pandas, Scikit-learn
+* Jupyter notebook, AWS-Postgres, Databricks, PySpark, Pandas, Scikit-learn, FLASK, Tableau
 
 ### Team Members:
 * Ahmar Jamal
