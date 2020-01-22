@@ -205,3 +205,4 @@ XlsxWriter==1.1.5
 
 zict==0.1.4
 zipp==0.3.3
+gunicorn==19.7.1
