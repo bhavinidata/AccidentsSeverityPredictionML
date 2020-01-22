@@ -109,7 +109,7 @@ mrjob==0.7.0
 # openpyxl==2.6.1
 # openweathermapy==0.6.6
 # packaging==19.0
-# pandas==0.24.2
+pandas==0.24.2
 # pandocfilters==1.4.2
 parso==0.3.4
 # partd==0.3.10
@@ -203,7 +203,7 @@ Werkzeug==0.14.1
 # wurlitzer==1.0.2
 # xlrd==1.2.0
 # XlsxWriter==1.1.5
-gunicorn==19.7.1
+
 numpy==1.16.4
 numpydoc==0.9.1
 pandas==0.24.2
